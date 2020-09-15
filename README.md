@@ -1,5 +1,11 @@
 # `cortex-m-quickstart`
 
+```bash
+$ file target/thumbv6m-none-eabi/debug/app
+target/thumbv6m-none-eabi/debug/app: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, with debug_info, not stripped
+
+```
+
 > A template for building applications for ARM Cortex-M microcontrollers
 
 This project is developed and maintained by the [Cortex-M team][team].
@@ -104,8 +110,8 @@ $ cargo build
 
 ## VS Code
 
-This template includes launch configurations for debugging CortexM programs with Visual Studio Code located in the `.vscode/` directory.  
-See [.vscode/README.md](./.vscode/README.md) for more information.  
+This template includes launch configurations for debugging CortexM programs with Visual Studio Code located in the `.vscode/` directory.
+See [.vscode/README.md](./.vscode/README.md) for more information.
 If you're not using VS Code, you can safely delete the directory from the generated project.
 
 # License

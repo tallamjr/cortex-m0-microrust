@@ -1,4 +1,8 @@
-# `cortex-m-quickstart`
+# `micro:bit:rust``
+
+- [Rust on BBC micro:bit using Windows](https://flames-of-code.netlify.app/blog/rust-microbit-windows/)
+- [Rust on the micro:bit 101 part 1](https://www.eggers-club.de/blog/2018/05/31/rust-on-the-microbit-101-part-1/)
+- [microbit crate](https://github.com/therealprof/microbit)
 
 ```bash
 $ file target/thumbv6m-none-eabi/debug/app
@@ -108,34 +112,3 @@ MEMORY
 $ cargo build
 ```
 
-## VS Code
-
-This template includes launch configurations for debugging CortexM programs with Visual Studio Code located in the `.vscode/` directory.
-See [.vscode/README.md](./.vscode/README.md) for more information.
-If you're not using VS Code, you can safely delete the directory from the generated project.
-
-# License
-
-This template is licensed under either of
-
-- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or
-  http://www.apache.org/licenses/LICENSE-2.0)
-
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
-
-at your option.
-
-## Contribution
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as above, without any additional terms or conditions.
-
-## Code of Conduct
-
-Contribution to this crate is organized under the terms of the [Rust Code of
-Conduct][CoC], the maintainer of this crate, the [Cortex-M team][team], promises
-to intervene to uphold that code of conduct.
-
-[CoC]: https://www.rust-lang.org/policies/code-of-conduct
-[team]: https://github.com/rust-embedded/wg#the-cortex-m-team

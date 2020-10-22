@@ -1,4 +1,4 @@
-# `micro:bit:rust``
+# `micro:bit:rust`
 
 - [Rust on BBC micro:bit using Windows](https://flames-of-code.netlify.app/blog/rust-microbit-windows/)
 - [Rust on the micro:bit 101 part 1](https://www.eggers-club.de/blog/2018/05/31/rust-on-the-microbit-101-part-1/)
